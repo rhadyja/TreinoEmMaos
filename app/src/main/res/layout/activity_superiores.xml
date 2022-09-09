@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsuperioresfem"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:paddingTop="64dp"
+    tools:context=".Superiores">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="349dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus"
+                android:gravity="left"
+                android:text="Treine"
+                android:textColor="#FFFFFF"
+                android:textSize="60dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="349dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus"
+                android:gravity="center"
+                android:text="conosco!"
+                android:textColor="#62F308"
+                android:textSize="55dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/roscadireta1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/roscadireta2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rosca direta c/ barra -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/roscadireta3" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/roscadireta4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rosca c/ halteres - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/roscascott1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/roscascott2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rosca no banco - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/martelo1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/martelo2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martelo c/ halteres -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepscorda" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepscorda2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tríceps c/ corda - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsbarra1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsbarra2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tríceps c/ barra reta -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsnamaquina" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsnamaquina2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tríceps na máquina -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/extensaodehalteres1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/extensaodehalteres2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Extensão de halteres -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsnobanco" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/tricepsnobanco2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tríceps no banco - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/supinohalteres" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/supinohalteres2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Supino c/ halteres -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/crucifixovoador1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/crucifixovoador2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Crucifixo no voador -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/supinobarra" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/supinobarra2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Supino reto c/ barra -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remadaalta1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remadaalta2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Remada alta - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/crucifixoinvertido" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/crucifixoinvertido2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Crucifixo invertido -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/elevacaolateral1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/elevacaolateral2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Elevação lateral - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/desenvolvimento" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/desenvolvimento2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Desenvolvimento de ombro - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remada1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remada2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Remada na máquina -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/puxada1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/puxada2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Puxada com barra -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remadabarra1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/remadabarra2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Remada com barra -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_finalizar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:background="#62F308"
+                android:text="Finalizar"
+                android:textColor="#163900"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/button_voltar"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="#57FFFFFF"
+                android:text="voltar"
+                android:textColor="#163900"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_superiores"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

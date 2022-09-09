@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundinferiores"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:paddingTop="64dp"
+    tools:context=".Inferiores">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="349dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus"
+                android:gravity="left"
+                android:text="Treine"
+                android:textColor="#FFFFFF"
+                android:textSize="60dp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="349dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus"
+                android:gravity="center"
+                android:text="conosco!"
+                android:textColor="#62F308"
+                android:textSize="55dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/abducao1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/abducao" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:text="Abdução de Quadril -        12rep x 3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/roscadeperna1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/roscadeperna" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rosca de Perna - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/agachamentobarra1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/agachamentobarra" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Agachamento c/ barra -   12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/pontogluteos1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/pontogluteos" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ponte p/ gluteos - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/afundo1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/afundo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Afundo - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/quatroapoio" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/quatroapoio1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4 Apoio - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/agachamentosumo1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/agachamentosumo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Agachamento Sumô -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/agachamentolivre1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/agachamentolivre" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Agachamento Livre -       12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/extensora1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/extensora2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Extensora - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/hack1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/hack2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hack - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/posterior1" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/posterior2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Posterior - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/legpress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Leg Press - 12rep x 3"
+                android:background="#5762F308"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_finalizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#62F308"
+                android:layout_marginTop="32dp"
+                android:text="Finalizar"
+                android:textColor="#163900"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/button_voltar"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="#57FFFFFF"
+                android:text="voltar"
+                android:textColor="#163900"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_inferiores"
+                tools:ignore="MissingConstraints" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
